@@ -70,7 +70,16 @@ function App() {
         </div>
 
       </main>
-      <footer>{language}</footer>
+      <footer
+        className="flex bg-neutral-200 justify-center"
+      >
+        <div className="w-full max-w-6xl text-sm py-3">
+          <p><strong>CPY</strong> refers to creating a copy</p>
+          <p><strong>IPL</strong> refers to changes happening in place</p>
+          <hr />
+          <p className="w-full text-center">© {new Date().getFullYear()} Moae</p>
+        </div>
+      </footer>
     </div>
   )
 }
