@@ -32,8 +32,8 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <header className="flex bg-neutral-200 justify-center">
-        <div className="w-full max-w-6xl flex flex-row gap-2 items-center">
-          <img src={`assets/${language}.png`} className="h-16" />
+        <div className="w-full max-w-6xl flex flex-row gap-5 items-center">
+          <img src={`assets/${language}.png`} className="h-16 w-16 object-contain" />
           <div>
             <span>Cheat Sheet</span>
             <div className="flex text-sm gap-3">
