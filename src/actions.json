@@ -1,0 +1,18 @@
+[
+    {
+        "category": "Strings",
+        "description": "Split strings (CPY)",
+        "py": "st.split(\",\")",
+        "java": "String[] split = st.split(\",\")",
+        "js": "st.split(\",\")",
+        "c": "std::vector<std::string> parts;\nstd::stringstream ss(s);\nstd::string item;\nwhile (std::getline(ss, item, ',')) parts.push_back(item);"
+    },
+    {
+        "category": "Variables",
+        "description": "Swap two variables",
+        "py": "a, b = b, a",
+        "java": "int temp = a; a = b; b = temp;",
+        "js": "[a, b] = [b, a];",
+        "c": "std::swap(a, b);  // from <utility>"
+    }
+]
