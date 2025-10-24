@@ -14,5 +14,21 @@
         "java": "int temp = a; a = b; b = temp;",
         "js": "[a, b] = [b, a];",
         "c": "std::swap(a, b);  // from <utility>"
+    },
+    {
+        "category": "Strings",
+        "description": "Find index of (from left)",
+        "py": "s.find(\"x\")",
+        "java": "s.indexOf(\"x\");",
+        "js": "s.indexOf(\"x\");",
+        "c": "s.find(\"x\");"
+    },
+    {
+        "category": "Strings",
+        "description": "Find index of (from right)",
+        "py": "s.rfind(\"x\")",
+        "java": "s.lastIndexOf(\"x\");",
+        "js": "s.lastIndexOf(\"x\");",
+        "c": "s.rfind(\"x\");"
     }
 ]
